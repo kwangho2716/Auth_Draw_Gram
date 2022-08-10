@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-10T07:52:50.180Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EP0rfSYqNizoCQVWI9wh" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-10T08:10:01.825Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DHjECE_dZWD9tex0eqRO" version="20.2.3" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
-    <mxGraphModel dx="1172" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="459" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -684,6 +684,77 @@
         </mxCell>
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-267" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="ZWDIc0FmqlrQE_8LziBr-264" source="ZWDIc0FmqlrQE_8LziBr-265" target="ZWDIc0FmqlrQE_8LziBr-266">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-268" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="730" width="118" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-269" value="&lt;font color=&quot;#000000&quot;&gt;권한 체크 없음&lt;br&gt;&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-268">
+          <mxGeometry y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-270" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#e1d5e7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;strokeWidth=4;strokeColor=#CC99FF;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-268">
+          <mxGeometry x="78" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-271" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="ZWDIc0FmqlrQE_8LziBr-268" source="ZWDIc0FmqlrQE_8LziBr-269" target="ZWDIc0FmqlrQE_8LziBr-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-272" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="360" y="791" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-273" value="KYC 1차" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=none;strokeColor=#000000;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-272">
+          <mxGeometry x="90" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-274" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="ZWDIc0FmqlrQE_8LziBr-272" source="ZWDIc0FmqlrQE_8LziBr-275" target="ZWDIc0FmqlrQE_8LziBr-273">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-275" value="Login" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-purple;gradientColor=none;strokeColor=#000000;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-272">
+          <mxGeometry y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-276" value="&lt;font color=&quot;#000000&quot;&gt;핀번호&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;strokeColor=default;fillColor=#d80073;fontColor=#ffffff;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-272">
+          <mxGeometry x="180" y="5" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-277" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="ZWDIc0FmqlrQE_8LziBr-272" source="ZWDIc0FmqlrQE_8LziBr-273" target="ZWDIc0FmqlrQE_8LziBr-276">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-279" value="" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-276" target="ZWDIc0FmqlrQE_8LziBr-284">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="771" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-283" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-276" target="ZWDIc0FmqlrQE_8LziBr-285">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="800" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-289" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.467;entryY=0.625;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-284" target="ZWDIc0FmqlrQE_8LziBr-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-284" value="&lt;span style=&quot;font-size: 18px; font-weight: 400;&quot;&gt;출금계좌 유무&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="652" y="791" width="100" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-290" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;entryX=0.5;entryY=0.725;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-285" target="ZWDIc0FmqlrQE_8LziBr-288">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-285" value="&lt;font style=&quot;font-size: 18px; font-weight: normal;&quot;&gt;자동계좌 유무&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="652" y="820" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-288" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#e1d5e7;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;strokeWidth=4;strokeColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="810" y="791" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-296" value="" style="endArrow=none;dashed=1;html=1;rounded=1;shadow=0;labelBackgroundColor=none;sketch=0;fontSize=18;fontColor=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;align=center;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-165" target="ZWDIc0FmqlrQE_8LziBr-297">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="590" as="sourcePoint" />
+            <mxPoint x="1150" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="375" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-297" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;파트너 코드(The pay) block&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fillStyle=auto;fontColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="500" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
