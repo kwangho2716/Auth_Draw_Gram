@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-11T00:43:01.761Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="h6QdkFAW7M-sfbWCQrqy" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-11T02:54:57.661Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="T4YTaAX9XARz1l-M4ItB" version="20.2.3" type="github">
   <diagram id="yPxyJZ8AM_hMuL3Unpa9" name="simple gitflow">
-    <mxGraphModel dx="1855" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -701,7 +701,7 @@
           <mxGeometry x="1170" y="500" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-301" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="590" y="730" width="390" height="40" as="geometry" />
+          <mxGeometry x="512" y="730" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-302" value="KYC 1차" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;plain-blue;gradientColor=none;strokeColor=#000000;" vertex="1" parent="ZWDIc0FmqlrQE_8LziBr-301">
           <mxGeometry x="90" y="5" width="30" height="30" as="geometry" />
@@ -724,17 +724,13 @@
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-308" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="ZWDIc0FmqlrQE_8LziBr-301" source="ZWDIc0FmqlrQE_8LziBr-305" target="ZWDIc0FmqlrQE_8LziBr-307">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZWDIc0FmqlrQE_8LziBr-313" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;fontSize=10;fontColor=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-311" target="ZWDIc0FmqlrQE_8LziBr-304">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="ZWDIc0FmqlrQE_8LziBr-311" value="&lt;font color=&quot;#000000&quot;&gt;기타 조건&lt;/font&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;strokeWidth=4;shape=mxgraph.flowchart.on-page_reference;strokeColor=default;fillColor=#e51400;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="510" y="735" width="30" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZWDIc0FmqlrQE_8LziBr-312" style="edgeStyle=entityRelationEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;fontSize=10;fontColor=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;shape=link;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-270" target="ZWDIc0FmqlrQE_8LziBr-311">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ZWDIc0FmqlrQE_8LziBr-312" style="edgeStyle=entityRelationEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;shadow=0;labelBackgroundColor=none;fontSize=10;fontColor=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;shape=link;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-270" target="ZWDIc0FmqlrQE_8LziBr-304">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="750" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-309" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=#d80073;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;verticalAlign=top;fontColor=#000000;strokeWidth=4;strokeColor=#CC99FF;" vertex="1" parent="1">
-          <mxGeometry x="980" y="730" width="40" height="40" as="geometry" />
+          <mxGeometry x="880" y="730" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-310" value="" style="edgeStyle=entityRelationEdgeStyle;shape=link;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;fontSize=18;fontColor=#000000;startSize=6;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;" edge="1" parent="1" source="ZWDIc0FmqlrQE_8LziBr-307" target="ZWDIc0FmqlrQE_8LziBr-309">
           <mxGeometry relative="1" as="geometry" />
@@ -742,7 +738,7 @@
         <mxCell id="ZWDIc0FmqlrQE_8LziBr-320" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;dashed=1;labelBackgroundColor=none;fontSize=12;fontColor=none;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;strokeColor=default;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZWDIc0FmqlrQE_8LziBr-321">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1260" y="750" as="targetPoint" />
-            <mxPoint x="930" y="750" as="sourcePoint" />
+            <mxPoint x="840" y="750" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="1020" y="761" />
               <mxPoint x="1020" y="750" />
